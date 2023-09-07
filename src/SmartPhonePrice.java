@@ -1,6 +1,6 @@
 class SmartphonePrice implements Cloneable {
-    String priceType;
-    double priceInEuros;
+   private String priceType;
+    private double priceInEuros;
 
     public SmartphonePrice(String priceType, double priceInEuros) {
         this.priceType = priceType;
