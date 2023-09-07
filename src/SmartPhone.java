@@ -1,7 +1,7 @@
 class Smartphone implements Cloneable {
-    String brandName;
-    String modelName;
-    int batterymAh;
+    private String brandName;
+    private String modelName;
+    private int batterymAh;
     SmartphonePrice producerPrice;
     SmartphonePrice retailPrice;
 
